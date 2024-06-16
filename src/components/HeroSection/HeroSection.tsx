@@ -59,7 +59,7 @@ const HeroSection = () => {
       <div className="mt-10 sm:mt-0">
         <div className="py-[30px] px-[50px] bg-[#070707] rounded-xl ">
           <div className="flex flex-col pb-[25px]">
-            <span className="text-[#c9f31d] text-[40px] font-[500]">1+</span>
+            <span className="text-[#c9f31d] text-[40px] font-[500]">2+</span>
             <span className="text-[hsla(0,0%,100%,.35)]">
               Years Of Experience
             </span>

@@ -73,31 +73,41 @@ const ContactSection = () => {
             <li className="flex gap-3">
               {" "}
               <div className="rounded-full h-fit w-fit transition-all duration-300 ease-in-out bg-[#c9f31d] p-2">
-                <Check style={{ width: "1.2rem", height: "1.2rem" }} />
+                <Check
+                  style={{ color: "black", width: "1.2rem", height: "1.2rem" }}
+                />
               </div>
               1+ Years Of Experience in Full Stack Development
             </li>
             <li className="flex gap-3">
               <div className="rounded-full h-fit w-fit transition-all duration-300 ease-in-out bg-[#c9f31d] p-2">
-                <Check style={{ width: "1.2rem", height: "1.2rem" }} />
+                <Check
+                  style={{ color: "black", width: "1.2rem", height: "1.2rem" }}
+                />
               </div>
               Proficient in MERN Stack (MongoDB, Express.js, React.js, Node.js)
             </li>
             <li className="flex gap-3">
               <div className="rounded-full h-fit w-fit transition-all duration-300 ease-in-out bg-[#c9f31d] p-2">
-                <Check style={{ width: "1.2rem", height: "1.2rem" }} />
+                <Check
+                  style={{ color: "black", width: "1.2rem", height: "1.2rem" }}
+                />
               </div>
               Responsive Web & Mobile App Development
             </li>
             <li className="flex gap-3">
               <div className="rounded-full h-fit w-fit transition-all duration-300 ease-in-out bg-[#c9f31d] p-2">
-                <Check style={{ width: "1.2rem", height: "1.2rem" }} />
+                <Check
+                  style={{ color: "black", width: "1.2rem", height: "1.2rem" }}
+                />
               </div>
               RESTful API & GraphQL Integration
             </li>
             <li className="flex gap-3">
               <div className="rounded-full h-fit w-fit transition-all duration-300 ease-in-out bg-[#c9f31d] p-2">
-                <Check style={{ width: "1.2rem", height: "1.2rem" }} />
+                <Check
+                  style={{ color: "black", width: "1.2rem", height: "1.2rem" }}
+                />
               </div>
               Custom Web Application Design & Development
             </li>

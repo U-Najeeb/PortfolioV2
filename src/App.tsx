@@ -60,7 +60,7 @@ const App = () => {
           <section className="flex justify-center pb-[100px]">
             <Footer />
           </section>
-          <section className="flex justify-center bg-black p-10 ">
+          <section className="text-white flex justify-center bg-black p-10 ">
             Copyright @2024,{" "}
             <span className="text-[#c9f31d] flex px-2">Sheikh Umair</span>All
             Rights Reserved
