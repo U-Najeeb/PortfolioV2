@@ -4,23 +4,23 @@ import me from "/images/me.png";
 const HeroSection = () => {
   return (
     <div
-      className="flex h-[600px] p-4 items-center w-full max-w-[1650px] mb-20 "
+      className="flex flex-col h-[600px] p-4 items-center w-full max-w-[1650px] mb-20 sm:flex sm:flex-row"
       id="home"
     >
       {" "}
       {/* Added items-center and justify-center */}
-      <div>
+      <div className="w-full sm:w-[30%]">
         <div className="w-[30rem]">
           <span className="text-[45px] font-[400] text-[hsla(0,0%,100%,.35)] tracking-wide ">
             Hello, I'm{" "}
           </span>
-          <h1 className="flex flex-col text-5xl font text-white tracking-wide font-medium ">
-            <b className="text-[#c9f31d] font-semibold text-6xl tracking-wide leading-[5rem]">
+          <h1 className="flex flex-col text-[39px] text-white tracking-wide font-medium sm:text-5xl ">
+            <b className="text-[#c9f31d] font-semibold text-[42px] tracking-wide leading-[5rem] sm:text-6xl sm:leading-[5rem]">
               Sheikh Umair
             </b>{" "}
             Full Stack Web Developer
           </h1>
-          <p className="my-[2rem] font-medium text-[hsla(0,0%,100%,.35)]">
+          <p className="my-[2rem] font-medium w-[20rem] text-[hsla(0,0%,100%,.35)] sm:w-full">
             Crafting innovative web experiences that blend technical mastery
             with creative ingenuity.
           </p>
@@ -56,7 +56,7 @@ const HeroSection = () => {
           />
         </div>
       </div>
-      <div className="">
+      <div className="mt-10 sm:mt-0">
         <div className="py-[30px] px-[50px] bg-[#070707] rounded-xl ">
           <div className="flex flex-col pb-[25px]">
             <span className="text-[#c9f31d] text-[40px] font-[500]">1+</span>

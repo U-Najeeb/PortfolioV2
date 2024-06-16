@@ -22,25 +22,25 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-[1620px] max-w-[1620px] bg-[#070707] flex h-[788px] max-h-[788px] py-[130px] rounded-lg overflow-hidden"
+      className=" bg-[#070707] flex h-full max-h-full  rounded-lg overflow-hidden sm:h-[788px] sm:max-h-[788px] sm:w-[1620px] sm:max-w-[1620px] sm:py-[130px]"
     >
       <motion.div
-        className="flex mx-auto gap-20 items-center"
+        className="flex flex-col mx-auto gap-20 items-start mt-[12rem] sm:mt-0 sm:flex sm:flex-row sm:items-center"
         animate={controls}
         initial={{ y: 100, opacity: 0 }}
         transition={{ duration: 0.6, ease: "easeInOut" }}
       >
-        <div className="mx-auto w-[46.8rem] px-[30px]">
+        <div className="mx-auto w-full px-[20px]  sm:w-[46.8rem] sm:px-[30px]">
           <div>
             <span className="text-[hsla(0,0%,100%,.65)] block mb-4">
               About Me
             </span>
-            <h2 className="text-[45px] text-white mb-6">
+            <h2 className="text-[30px] text-white mb-6 sm:text-[45px]">
               Curious
               <span className="text-[#c9f31d] "> About Me? </span>
               Here you have it:
             </h2>
-            <p className="text-[hsla(0,0%,100%,.65)] mb-8">
+            <p className="text-[hsla(0,0%,100%,.65)] mb-8 text-[16px] w-[75%] sm:w-full">
               I'm an enthusiastic and versatile full-stack web developer
               proficient in React, Express JS, Node JS, MongoDB, PostgreSQL, and
               a range of other technologies. Committed to excellence, I thrive
@@ -50,8 +50,8 @@ const About = () => {
               contribute innovative solutions in web development.
             </p>
           </div>
-          <ul className="grid grid-cols-2 gap-x-40 text-white text-[20px]">
-            <li className="mb-5 flex gap-2 items-center w-[27rem]">
+          <ul className="grid grid-cols-1 gap-x-40 text-white text-[16px]  sm:grid-cols-2 sm:text-[20px]">
+            <li className="mb-5 flex gap-2 items-center w-[20rem] sm:w-[27rem]">
               <Check style={{ color: "#c9f31d" }} />
               B.E. in Computer Sceince Engineering
             </li>
@@ -72,7 +72,7 @@ const About = () => {
             </li>
           </ul>
           <div
-            className=" mt-7  flex flex-wrap max-w-[600px] rounded-[20px] px-4
+            className=" mt-7 flex flex-wrap max-w-[600px] rounded-[20px] px-4
            pt-[16px] pb-[2px] justify-center bg-[#1f1f1f] border border-[hsla(0,0%,100%,.1)] gap-7 "
           >
             <label
@@ -96,7 +96,7 @@ const About = () => {
                 </a>
               </div>
             </label>
-            <div className="mb-4 w-full md:w-auto flex gap-5 items-center">
+            <div className="mb-4 w-full md:w-auto flex  gap-5 items-center ">
               <button className="rounded-full w-10 h-10 bg-[#c9f31d] flex justify-center items-center">
                 <Phone style={{ width: "16px" }} />
               </button>

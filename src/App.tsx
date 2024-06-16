@@ -39,7 +39,7 @@ const App = () => {
           <section className="flex justify-center mb-36">
             <Header />
           </section>
-          <section className="flex justify-center">
+          <section className="flex justify-center mb-72 sm:mb-0">
             <HeroSection />
           </section>
           <section className="flex justify-center pb-[100px]">
